@@ -26,17 +26,20 @@ body{
 
 .back{
     position: absolute;
-    color: #82adad;
+    height: calc(0.5em + 2vmax);
+    filter: invert();
     text-decoration: none;
     font-size: calc(0.75em + .5vmax);
     margin: 0;
     transition: all ease 0.3s;
-    
+    box-shadow: rgba(255, 255, 255, 0.622) 1px 0px 20px 0px;
 }
+
+
 .back:hover{
     transform: scale(1.2);
     transition: all ease 0.3s;
-    box-shadow: rgb(0, 0, 0) 0px 220px 700px 8000px;
+    box-shadow: rgb(255, 255, 255) 0px 220px 700px 8000px;
 
 }
 

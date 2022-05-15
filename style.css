@@ -1,6 +1,6 @@
 body {
     
-    background-image: url('iamallofus.png'); 
+    background-image: url('media/iamallofus.png'); 
     background-color: #4e6868;
     animation: AnimationName 12s;
     overflow: hidden;
@@ -27,22 +27,22 @@ body {
 
 .folder{
     position: relative;
-    height: 5vmax;
+    height: 4.5vmax;
     width: auto;
-    animation: Folder 6s;
+    animation: Folder s;
     box-shadow: rgb(0 0 0 / 94%) 7px 9px 0px 0px;
     transition: all ease 0.4s;
 }
 
 
 #folder1{
-    bottom: 40%;
+    bottom: 90%;
     right: 60%;
     
 }
 #folder2{
-    top: 600%;
-    right: 90%;
+    top: 50vh;
+    right: 10vw;
     
 }
 #folder3{
@@ -50,6 +50,14 @@ body {
     left: 30%;
     
 }
+
+
+#thoughts /*aka folder4*/{
+    top: 10vh;
+    left: 180%;
+    
+}
+
 
 @keyframes Folder {
     0%{opacity: 10%;}
